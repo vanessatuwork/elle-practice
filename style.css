@@ -1,0 +1,169 @@
+body {
+  font-family: "kohinoor-bangla", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.nav-wrapper {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 10;
+}
+
+.nav-wrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-social {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.nav-social li {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  background-color: #333;
+}
+
+.key-visual-section-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: cornflowerblue;
+}
+
+.key-visual-reference {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("./img/background-reference.png") no-repeat center center;
+  background-size: cover;
+  z-index: -50;
+  opacity: 0.1;
+}
+
+.key-visual-reference::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.key-visual-section-wrapper img {
+}
+
+.key-visual-content {
+  position: absolute;
+  width: 30vw;
+  height: 30vh;
+  bottom: 8vh;
+  left: 10vw;
+  /* background-color: rgba(64, 224, 208, 0.388); */
+}
+
+.key-visual-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  gap: 16px;
+  align-items: end;
+}
+
+.key-visual-slogan {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.running-feet {
+  position: absolute;
+  top: 5vh;
+  left: 10vw;
+}
+
+.location {
+  position: absolute;
+  top: 25vh;
+  left: 10vw;
+  height: 25%;
+}
+
+.fifth-sixteen {
+  position: relative;
+  height: 8vh;
+}
+
+.twenty-twentysix {
+  position: relative;
+  height: 6vh;
+}
+
+.togather {
+  position: relative;
+  width: 17vw;
+  left: -0.5vw;
+}
+
+.for {
+  position: relative;
+  width: 6vw;
+}
+
+.more {
+  position: relative;
+  width: 10vw;
+}
+
+.elle-logo {
+  position: absolute;
+  top: 20vh;
+  right: 15vw;
+  width: 15%;
+}
